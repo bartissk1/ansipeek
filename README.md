@@ -9,6 +9,23 @@
 - 单文件，`ansipeek.py` 拷走就能用
 - 不联网、不写文件
 
+<!-- ipos:install -->
+## 安装
+
+零依赖，Python 3.10+ 即可：
+
+```bash
+pip install bartissk1-ansipeek
+```
+
+装完直接用命令名调用：
+
+```bash
+ansipeek --help
+```
+
+也可以不用安装，直接把 `ansipeek.py` 拷走用——它只依赖标准库。
+
 ## 为什么需要它
 
 从 CI 捞一段日志下来想搜一个错误码，搜不到——因为那行字被一串颜色码切成了好几段。
